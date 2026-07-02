@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Wayfarer Map - Spinner/Postcard Image View
 // @namespace    https://github.com/Saltssaumure/wayfarer-addons
-// @downloadURL  https://raw.githubusercontent.com/Saltssaumure/wayfarer-addons/refs/heads/main/.prettierrc.json
-// @updateURL    https://github.com/Saltssaumure/wayfarer-addons/-/raw/main/wayfarer-map-mods-map-tiles.user.js
+// @downloadURL  https://github.com/Saltssaumure/wayfarer-addons/raw/refs/heads/main/spinner-postcard-image-view.user.js
+// @updateURL    https://github.com/Saltssaumure/wayfarer-addons/raw/refs/heads/main/spinner-postcard-image-view.user.js
 // @homepageURL  https://github.com/Saltssaumure/wayfarer-addons
 // @version      1.0.0
 // @description  Morph wayspot voting screen images to spinner and postcard shape/ratio.
