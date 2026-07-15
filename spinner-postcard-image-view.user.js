@@ -4,7 +4,7 @@
 // @downloadURL  https://github.com/Saltssaumure/wayfarer-addons/raw/refs/heads/main/spinner-postcard-image-view.user.js
 // @updateURL    https://github.com/Saltssaumure/wayfarer-addons/raw/refs/heads/main/spinner-postcard-image-view.user.js
 // @homepageURL  https://github.com/Saltssaumure/wayfarer-addons
-// @version      1.1.0
+// @version      1.2.0
 // @description  Adds spinner and postcard previews to the Wayspot photo voting window. Requires Wayfarer Map Mods - Base by Tntnnbltn.
 // @author       Saltssaumure
 // @match        https://wayfarer.nianticlabs.com/new/mapview*
@@ -79,6 +79,7 @@
     #alternate-images-wrapper {
         display: flex;
         flex-direction: column;
+        flex: 0 0 auto;
         gap: 12px;
         --alternate-image-size: 200px;
 
@@ -110,19 +111,22 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 4px;
     }
 
     .alternate-image-note {
         position: relative;
-        inset: 4px auto auto;
+        inset: auto;
     }
 
     .wfmapmods-wayspot-overlay-image-link {
         align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .wfmapmods-photo-vote-host {
-        inset: auto auto 10px 10px;
+        inset: 42px auto auto 10px;
     }
 
     .wfmapmods-wayspot-overlay-dialog {
